@@ -1,0 +1,23 @@
+{
+    "izquierda":{
+        "contacto":"CONTACTO",
+        "contactame":"CONTACTAME",
+        "software":"TECNOLOGIAS"
+    },
+    "derecha":{
+        "nombre":"Sebastian Lopez Giraldo",
+        "ocupacion":"Desarrollador Front-End",
+        "descripcion": "A lo largo de la carrera de sistemas he venido desarrollando habilidades de  autoaprendizaje, liderazgo, trabajo en conjunto y dominio del publico cualidades  necesarias para desenvolverme laboralmente, además junto a mi responsabilidad  y compromiso con lo que hago culminare de la mejor manera los proyectos o actividades en las que tenga participación.",
+        "educacion":"EDUCACION",
+        "referencias":"REFERENCIAS",
+        "profe":"Docente"
+    },
+    "Formulario":{
+        "name":"Nombre",
+        "email":"Email",
+        "message":"Mensaje",
+        "send":"Enviar",
+        "close":"CERRAR"
+    }
+    
+}

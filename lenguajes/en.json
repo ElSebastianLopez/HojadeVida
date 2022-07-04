@@ -1,0 +1,25 @@
+{
+    "izquierda":{
+        "contacto":"CONTACT",
+        "contactame":"CONTACT ME",
+        "software":"TECHNOLOGIES"
+    },
+    "derecha":{
+        "nombre":"Sebastian Lopez Giraldo",
+        "ocupacion":"FRONT END DEVELOPER",
+        "descripcion": "Throughout my systems career I have been developing self- learning, leadership, teamwork and public domain skills, qualities necessary to function professionally, in addition to my responsibility and commitment to what I do, I will complete projects or activities in the best way.in which you participate.",
+        "educacion":"EDUCATION",
+        "referencias":"REFERENCES",
+        "profe":"Teacher"
+    },
+    "Formulario":{
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "send":"Send",
+        "close":"CLOSE"
+
+    }
+
+    
+}

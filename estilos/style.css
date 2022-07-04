@@ -1,0 +1,234 @@
+section .divimg {
+  display: flex;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background-color: rgb(254, 245, 231);
+}
+.idioma {
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.lenguaje {
+  width: 30px;
+  height: 30px;
+}
+.lenguaje img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+}
+.container-principal {
+  margin: 20px;
+}
+header {
+  width: 100%;
+  height: 60px;
+}
+
+.divimg img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: solid;
+  margin: auto;
+  justify-items: center;
+}
+.nombre {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+.h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.edu {
+  margin-bottom: 20px;
+  border-bottom: 2px solid;
+}
+
+.container-educacion {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repet(6, 1fr);
+}
+
+.estudio1fecha,
+.estudio2fecha,
+.estudio3fecha,
+.estudio4fecha,
+.estudio5fecha,
+.estudio6fecha {
+  width: 100%;
+  height: 150px;
+}
+.estudio1,
+.estudio2,
+.estudio3,
+.estudio4,
+.estudio5,
+.estudio6 {
+  width: 100%;
+  height: 150px;
+}
+
+.container-referencias {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repet(3, 1fr);
+}
+.referencia1fecha,
+.referencia2fecha,
+.referencia3fecha {
+  width: 100%;
+  height: 150px;
+}
+.referencia1,
+.referencia2,
+.referencia3 {
+  width: 100%;
+  height: 150px;
+}
+.contactof {
+  width: 100%;
+  height: 450px;
+  padding-top: 15px;
+}
+.git,
+.LinkedIn,
+.telefono,
+.correo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-top: 20px;
+}
+.img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+/*estilos de la ventana emergente que contiene el 
+formulario de contacto*/
+
+@media (max-width: 820px) {
+  .contacto {
+    display: none;
+  }
+  .software {
+    display: none;
+  }
+  .ex,.experience{
+    display: none;
+  }
+}
+@media (min-width: 820px) {
+  p {
+    padding: 10px;
+  }
+
+  .container-principal {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 90%;
+    margin-bottom: 10px;
+    margin: auto;
+  }
+
+  .izquierda {
+    width: 100%;
+    background-color: #b5d5f0;
+    align-content: start;
+  }
+  .divimg {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  .divimg img {
+    width: 215px;
+    height: 215px;
+    border-radius: 100%;
+    border: solid;
+    margin: auto;
+    justify-items: center;
+  }
+
+  .contacto {
+    width: 100%;
+    height: 450px;
+    padding-top: 15px;
+  }
+  .h2{
+    padding-left: 8px;
+  }
+
+  .software {
+    width: 100%;
+    height: 450px;
+    margin-top: 55px;
+  }
+  .softw {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .softw img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .ex{
+    padding-top: 25px;
+  }
+  .experience{
+    padding-top: 15px;
+  }
+
+  .derecha {
+    width: 100%;
+    grid-column: 2/3;
+  }
+
+  .nombre {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .nombre h2 {
+    padding-top: 50px;
+  }
+  .edu {
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .descripcion {
+    margin-top: 20px;
+  }
+
+  footer {
+    display: none;
+  }
+}
